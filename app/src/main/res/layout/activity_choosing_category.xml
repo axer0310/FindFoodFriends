@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.arthur.findfoodfriends.ChoosingCategory">
+    tools:context="com.example.arthur.findfoodfriends.ChoosingCategory"
+    android:background="@color/wallet_highlighted_text_holo_dark">
 
     <Button
         android:id="@+id/restaurant"
@@ -21,7 +22,8 @@
         android:layout_alignStart="@+id/dinningCourt"
         android:layout_marginBottom="99dp"
         android:text="Restaurant"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:background="?android:attr/detailsElementBackground" />
 
     <Button
         android:id="@+id/dinningCourt"
@@ -31,5 +33,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="82dp"
         android:text="Dinning Court"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:background="?android:attr/detailsElementBackground" />
 </RelativeLayout>

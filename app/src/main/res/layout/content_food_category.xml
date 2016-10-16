@@ -11,7 +11,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.arthur.findfoodfriends.FoodCategory"
-    tools:showIn="@layout/activity_food_category">
+    tools:showIn="@layout/activity_food_category"
+    android:background="@color/wallet_highlighted_text_holo_dark">
 
     <Button
         android:id="@+id/foodCategory"
@@ -24,7 +25,8 @@
         android:layout_marginTop="113dp"
         android:elevation="0dp"
         android:text="Food Categoty"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:background="?android:attr/detailsElementBackground" />
 
     <Button
         android:id="@+id/genderAge"
@@ -34,7 +36,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/foodCategory"
         android:layout_marginTop="135dp"
-        android:text="Gender + Age" />
+        android:text="Gender + Age"
+        android:background="?android:attr/detailsElementBackground" />
 
     <TextView
         android:id="@+id/title"
@@ -46,6 +49,7 @@
         android:fontFamily="sans-serif"
         android:text="Choose By:"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
 
 </RelativeLayout>

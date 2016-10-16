@@ -11,7 +11,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.arthur.findfoodfriends.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:background="@color/wallet_highlighted_text_holo_dark">
 
     <Button
         android:id="@+id/choose"
@@ -21,7 +22,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="147dp"
         android:text="Choose"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:background="?android:attr/detailsElementBackground" />
 
     <Button
         android:id="@+id/yolo"
@@ -32,7 +34,8 @@
         android:layout_alignRight="@+id/choose"
         android:layout_marginBottom="111dp"
         android:text="YOLO"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:background="?android:attr/detailsElementBackground" />
 
     <TextView
         android:id="@+id/textView3"
@@ -41,6 +44,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
         android:text="Find Food Friends"
-        android:textSize="30sp" />
+        android:textStyle="normal|bold"
+        android:textColor="?android:attr/textColorSecondary" />
 </RelativeLayout>
